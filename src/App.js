@@ -2,9 +2,9 @@ import { Box } from "@mui/material";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HomePage from "./components/HomePage";
-import ExerciseDetail from "./components/ExerciseDetail";
+import ExerciseDetail from "./pages/ExerciseDetail";
 import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
