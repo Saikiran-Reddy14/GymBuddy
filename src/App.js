@@ -1,6 +1,10 @@
 import { Box } from "@mui/material";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
+import ExerciseDetail from "./components/ExerciseDetail";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +18,7 @@ function App() {
             {/* <Route path="*" Component={InvalidPage} /> */}
           </Routes>
         </BrowserRouter>
-        <h1>hello</h1>
+        <Footer />
       </Box>
     </div>
   );
