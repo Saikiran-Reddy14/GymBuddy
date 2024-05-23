@@ -3,12 +3,6 @@ body {
   background-color: #fffafb;
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -57,8 +51,8 @@ body {
   right: 40px;
   top: 0px;
   width: 700px;
-  height: 900px;
-  margin-top: -330px;
+  height: 750px;
+  margin-top: -325px;
 }
 
 .exercise-card {
