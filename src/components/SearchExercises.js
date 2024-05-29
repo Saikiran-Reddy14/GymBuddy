@@ -103,5 +103,3 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 };
 
 export default SearchExercises;
-
-// 46min
